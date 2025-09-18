@@ -1,90 +1,162 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# ENAK MART - E-Commerce Company Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A modern, responsive multipage website for ENAK MART, an e-commerce company. Built with HTML5, CSS3, and JavaScript following web development best practices.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## 🌟 Features
+
+- **Responsive Design**: Fully responsive across all devices (mobile, tablet, desktop)
+- **Modern UI/UX**: Clean, professional design with green and white theme
+- **Interactive Elements**: 
+  - Mobile-friendly hamburger navigation
+  - Form validation with real-time feedback
+  - Smooth scroll animations with intersection observer
+  - Hover effects and transitions
+  - Fade-in animations for content sections
+- **Semantic HTML5**: Proper semantic structure for accessibility and SEO
+- **Cross-browser Compatible**: Works on all modern browsers
+
+## 📁 Project Structure
+
+\`\`\`
+enak-mart-website/
+├── index.html          # Home page
+├── about.html          # About us page
+├── contact.html        # Contact page with form
+├── css/
+│   └── styles.css      # Main stylesheet
+├── js/
+│   └── script.js       # JavaScript functionality
+├── images/             # Image assets
+│   ├── fast-delivery.jpg
+│   ├── quality-products.jpg
+│   ├── support-24-7.jpg
+│   ├── team1.jpg
+│   ├── team-at-work.jpg
+│   └── ilustration.jpg
+└── README.md           # Project documentation
+\`\`\`
+
+## 🎨 Design Theme
+
+- **Primary Color**: Green (#22c55e)
+- **Secondary Color**: White (#ffffff)
+- **Typography**: Inter font family
+- **Style**: Modern, clean, professional
+
+## 🚀 Pages
+
+### Home Page (index.html)
+- Hero section with company introduction
+- "Why Choose ENAK MART?" features showcase with animated cards
+- Call-to-action section
+- Responsive navigation with smooth animations
+
+### About Page (about.html)
+- Company story and background
+- Mission and vision statements
+- Core values section with animated content
+- Team member profiles with professional photos
+
+### Contact Page (contact.html)
+- Contact information with Ethiopian phone number
+- Interactive contact form with validation
+- Business hours and location details
+
+## 💻 Technical Features
+
+### HTML5
+- Semantic markup (header, nav, main, section, footer)
+- Proper heading hierarchy
+- Accessible form labels and structure
+- Meta tags for SEO and responsive design
+
+### CSS3
+- Flexbox and CSS Grid for layouts
+- CSS custom properties (variables)
+- Smooth transitions and fade-in animations
+- Mobile-first responsive design
+- Modern box-shadow and border-radius effects
+
+### JavaScript
+- Mobile navigation toggle
+- Form validation with error handling
+- Smooth scrolling
+- Intersection Observer API for scroll-triggered animations
+- Event handling for interactive elements
+- Optimized animation timing to prevent content flickering
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 480px
+- **Tablet**: 481px - 768px
+- **Desktop**: > 768px
+
+## 🛠️ Setup and Deployment
+
+### Local Development
+1. Clone or download the project files
+2. Open `index.html` in a web browser
+3. No build process required - pure HTML, CSS, and JavaScript
+
+### Deployment Options
+This website can be deployed on:
+- **GitHub Pages**: Push to GitHub and enable Pages
+- **Netlify**: Drag and drop the folder or connect to Git
+- **Vercel**: Import project from Git or upload files
+
+## ✅ Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## 📋 Form Validation
+
+The contact form includes validation for:
+- Name (minimum 2 characters)
+- Email (valid email format)
+- Phone (optional, but validated if provided)
+- Subject (required selection)
+- Message (minimum 10 characters)
+
+## 🎯 Performance Features
+
+- Optimized images with proper loading
+- Minimal external dependencies
+- Efficient CSS and JavaScript
+- Fast loading times
+- Intersection Observer for performance-optimized animations
+
+## 📞 Contact Information
+
+- **Company**: ENAK MART
+- **Email**: info@enakmart.com
+- **Phone**: +251914191393 (Ethiopia)
+- **Address**: Mekelle, Tigray, Ethiopia
+
+## 🏆 Best Practices Implemented
+
+- Semantic HTML structure
+- Accessible design patterns
+- Mobile-first responsive design
+- Progressive enhancement
+- Clean, maintainable code
+- Proper file organization
+- Cross-browser compatibility
+- Performance optimization
+- Smooth animations without content flickering
+
+## 🔧 Recent Updates
+
+- Fixed animation timing issues that caused content to disappear
+- Added professional feature images for Fast Delivery, Quality Products, and 24/7 Support
+- Updated contact information with Ethiopian phone number
+- Improved intersection observer performance
+- Enhanced team section with proper image display
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Built with ❤️ for ENAK MART - Your trusted e-commerce partner since 2020.
+Copyright © 2025 ENAK MART. All rights reserved.
