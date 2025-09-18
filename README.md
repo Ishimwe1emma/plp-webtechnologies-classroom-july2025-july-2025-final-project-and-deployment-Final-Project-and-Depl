@@ -98,10 +98,14 @@ enak-mart-website/
 2. Open `index.html` in a web browser
 3. No build process required - pure HTML, CSS, and JavaScript
 
-### Deployment Options
-This website can be deployed on:
+### Live Deployment
+The website is currently deployed and accessible at:
+**https://plp-web-dev-final-project.netlify.app**
+
+### Other Deployment Options
+This website can also be deployed on:
 - **GitHub Pages**: Push to GitHub and enable Pages
-- **Netlify**: Drag and drop the folder or connect to Git
+- **Netlify**: Drag and drop the folder or connect to Git (currently deployed here)
 - **Vercel**: Import project from Git or upload files
 
 ## ✅ Browser Support
