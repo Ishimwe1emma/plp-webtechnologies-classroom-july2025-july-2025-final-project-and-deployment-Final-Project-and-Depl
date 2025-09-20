@@ -1,6 +1,6 @@
-# ENAK MART - E-Commerce Company Website
+# Imena Health Center - Community Healthcare Website
 
-A modern, responsive multipage website for ENAK MART, an e-commerce company. Built with HTML5, CSS3, and JavaScript following web development best practices.
+A modern, responsive multipage website for **Imena Health Center**, providing quality healthcare services to the community. Built with HTML5, CSS3, and JavaScript following web development best practices.
 
 ## 🌟 Features
 
@@ -17,24 +17,25 @@ A modern, responsive multipage website for ENAK MART, an e-commerce company. Bui
 
 ## 📁 Project Structure
 
-\`\`\`
-enak-mart-website/
-├── index.html          # Home page
-├── about.html          # About us page
-├── contact.html        # Contact page with form
+
+imena-health-center-website/
+├── index.html # Home page
+├── about.html # About us page
+├── contact.html # Contact page with form
 ├── css/
-│   └── styles.css      # Main stylesheet
+│ └── styles.css # Main stylesheet
 ├── js/
-│   └── script.js       # JavaScript functionality
-├── images/             # Image assets
-│   ├── fast-delivery.jpg
-│   ├── quality-products.jpg
-│   ├── support-24-7.jpg
-│   ├── team1.jpg
-│   ├── team-at-work.jpg
-│   └── ilustration.jpg
-└── README.md           # Project documentation
-\`\`\`
+│ └── script.js # JavaScript functionality
+├── images/ # Image assets
+│ ├── Clinical Director.png
+│ ├── download.jpg
+│ ├── download2.jpeg
+│ ├── experience.webp.jpg
+│ ├── Head Nurse.jpeg
+│ ├── operation Manager.jpeg
+│ └── team.png
+└── README.md # Project documentation
+
 
 ## 🎨 Design Theme
 
@@ -46,19 +47,19 @@ enak-mart-website/
 ## 🚀 Pages
 
 ### Home Page (index.html)
-- Hero section with company introduction
-- "Why Choose ENAK MART?" features showcase with animated cards
-- Call-to-action section
+- Hero section introducing Imena Health Center
+- "Why Choose Us?" features showcase with animated cards
+- Call-to-action section for appointments
 - Responsive navigation with smooth animations
 
 ### About Page (about.html)
-- Company story and background
+- Health center story and background
 - Mission and vision statements
 - Core values section with animated content
 - Team member profiles with professional photos
 
 ### Contact Page (contact.html)
-- Contact information with Ethiopian phone number
+- Contact information with Rwandan phone number
 - Interactive contact form with validation
 - Business hours and location details
 
@@ -99,14 +100,8 @@ enak-mart-website/
 3. No build process required - pure HTML, CSS, and JavaScript
 
 ### Live Deployment
-The website is currently deployed and accessible at:
-**https://plp-web-dev-final-project.netlify.app**
+The website can be deployed and accessed via platforms like:
 
-### Other Deployment Options
-This website can also be deployed on:
-- **GitHub Pages**: Push to GitHub and enable Pages
-- **Netlify**: Drag and drop the folder or connect to Git (currently deployed here)
-- **Vercel**: Import project from Git or upload files
 
 ## ✅ Browser Support
 
@@ -135,10 +130,10 @@ The contact form includes validation for:
 
 ## 📞 Contact Information
 
-- **Company**: ENAK MART
-- **Email**: info@enakmart.com
-- **Phone**: +251914191393 (Ethiopia)
-- **Address**: Mekelle, Tigray, Ethiopia
+- **Health Center**: Imena Health Center
+- **Email**: info@imenahealthcenter.com
+- **Phone**: +250 788 123 456 (Rwanda)
+- **Address**: Kigali, Gasabo District, Rwanda
 
 ## 🏆 Best Practices Implemented
 
@@ -154,13 +149,14 @@ The contact form includes validation for:
 
 ## 🔧 Recent Updates
 
-- Fixed animation timing issues that caused content to disappear
-- Added professional feature images for Fast Delivery, Quality Products, and 24/7 Support
-- Updated contact information with Ethiopian phone number
+- Updated website content for Imena Health Center
+- Replaced e-commerce features with healthcare-focused content
+- Added professional images for Quality Care, Experienced Staff, and Community Focus
+- Updated contact information with Rwandan phone number
 - Improved intersection observer performance
 - Enhanced team section with proper image display
 
 ---
 
-Built with ❤️ for ENAK MART - Your trusted e-commerce partner since 2020.
-Copyright © 2025 ENAK MART. All rights reserved.
+Built with ❤️ for Imena Health Center - Providing quality healthcare to the community since 2015.  
+Copyright © 2025 Imena Health Center. All rights reserved.
